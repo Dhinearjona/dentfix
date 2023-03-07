@@ -1,0 +1,34 @@
+@import url('../header.css');
+
+/* Style for Navigation Menu */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--green);
+    overflow-x: hidden;
+    padding-top: 20px;
+  
+    a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: var(--white);
+      display: block;
+      transition: all 0.3s ease-in-out;
+  
+      &:hover {
+        background: var(--orange);
+        color: var(--white);
+      }
+    }
+  }
+  
+  /* Style for Main Content */
+  .main {
+    margin-left: 200px; /* Same width as the navigation menu */
+    padding: 20px 10px;
+  }  
